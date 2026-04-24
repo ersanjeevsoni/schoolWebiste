@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.css'
-import { Button } from 'bootstrap';
+
 
 function Contact() {
 
@@ -86,8 +86,8 @@ function Contact() {
           ></textarea>
 
           <button type="submit">Submit</button>
+          
         </form>
-
         {/* Contact Info */}
         <div className="contact-info">
           <h2>School Info</h2>
@@ -98,7 +98,7 @@ function Contact() {
         </div>
 
       </section>
-      <Button variant="primary">Primary</Button>
+      
 
     </div>
   )
