@@ -6,6 +6,7 @@ import Services from "./component/Services";
 import Contact from "./component/Contact";
 import Gallery from "./component/Gallery";
 import Nav from "./component/Nav";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

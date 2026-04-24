@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.css'
+import { Button } from 'bootstrap';
 
 function Contact() {
 
@@ -97,6 +98,7 @@ function Contact() {
         </div>
 
       </section>
+      <Button variant="primary">Primary</Button>
 
     </div>
   )
