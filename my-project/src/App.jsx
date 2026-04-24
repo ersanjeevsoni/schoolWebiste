@@ -7,6 +7,8 @@ import Contact from "./component/Contact";
 import Gallery from "./component/Gallery";
 import Nav from "./component/Nav";
 
+
+
 function App() {
   return (
     <>
@@ -16,16 +18,17 @@ function App() {
 <Routes> → renders on every page
 <Routes> → Only switches page content */}
 
-      <BrowserRouter>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+
+    </BrowserRouter>
     </>
   );
 }
